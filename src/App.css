@@ -1,0 +1,190 @@
+html{
+  padding:20px;
+  font-family: Helvetica;
+}
+
+h1,h2{
+  border-bottom:1px solid #000;
+  font-size:25px;
+  padding:0px 0 10px;
+  margin:0 0 20px;
+}
+
+form{
+  margin:0 0 20px;
+  display:block;
+}
+
+input::placeholder{
+  font-style: italic;
+}
+
+#city{
+  text-transform: capitalize;
+}
+
+#city::placeholder{
+  text-transform:none;
+}
+
+#country{
+  text-transform:uppercase;
+}
+
+#country::placeholder{
+  text-transform: none;
+}
+
+.today-weather span{
+  display:block;
+}
+
+.result{
+  display: block;
+}
+
+.result span{
+  display: block;
+  line-height: 140%;
+}
+
+.result .label{
+  display:inline-block;
+  width:120px;
+  color:#666;
+}
+
+.history h2{
+  margin-bottom:0;
+}
+
+.history .result{
+  height:0;
+  overflow: hidden;
+}
+
+.history .result .time{
+  display:none;
+}
+
+.history ol{
+  margin-top:0;
+  padding:0 0 0 0px;
+}
+
+.history ol li{
+  padding:20px 0 20px 0px;
+  border-bottom:1px solid #333;
+  list-style-position: inside;
+}
+
+.history ol li{
+  width:100%;
+}
+.history ol li::marker{
+  width:8%;
+}
+.history ol li .history-item{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width:95%;
+}
+
+.history .city-value,.today-weather .city-value{
+  text-transform: capitalize;
+}
+
+.history .country-value,.today-weather .country-value{
+  text-transform: uppercase;
+}
+
+.today-weather{
+  margin:0 0 20px;
+}
+
+.today-weather .city-value,.today-weather .country-value{
+  display: inline-block;
+}
+
+.today-weather .input-value{
+  font-size:13px;
+  color:#666;
+}
+
+.weather{
+  font-size:35px;
+  font-weight: bold;
+}
+
+.weather .img-icon{
+  display: inline-block;
+  width:50px;
+  height:50px;
+  background-image: url("images/icons.png");
+  top:13px;
+  left:7px;
+  position: relative;
+}
+
+.img-icon.Clouds{
+  background-position: 343px 220px;
+}
+.img-icon.Clear{
+  background-position: 199px 290px;
+}
+.img-icon.Haze{
+  background-position: 127px 147px;
+}
+
+.history .weather{
+  font-size:25px;
+  margin:0 0 5px;
+}
+
+
+.magnifier{
+  /*width:50px;
+  height:50px;
+  background-image: url("images/icons.png") ;
+  background-position: top left;
+  display: inline-block;*/
+}
+
+.message p{
+  background:#c51244;
+  /*border:1px solid red;*/
+  color:#fff;
+  padding:10px;
+}
+
+.control{
+  position:absolute;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
