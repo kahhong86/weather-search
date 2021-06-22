@@ -38,8 +38,6 @@ const Search = () =>{
 	      	const historyMarkup = `
 	        	<div class="control">
 		          	<span class="time">${new Date().toLocaleTimeString()}</span>
-	          		<a href="#" class="magnifier" onClick={handleClick}>Open</a>
-		          	<a href="#" class="remove">Delete</a>
 	        	</div>
 	      	`;
 			li.innerHTML = '<div class="history-item">' + historyMarkup + todayMarkup + '</div>';

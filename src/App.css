@@ -142,18 +142,8 @@ input::placeholder{
   margin:0 0 5px;
 }
 
-
-.magnifier{
-  /*width:50px;
-  height:50px;
-  background-image: url("images/icons.png") ;
-  background-position: top left;
-  display: inline-block;*/
-}
-
 .message p{
   background:#c51244;
-  /*border:1px solid red;*/
   color:#fff;
   padding:10px;
 }
@@ -161,6 +151,22 @@ input::placeholder{
 .control{
   position:absolute;
   right: 0;
+}
+
+.weather-item{
+  display: inline-block;
+}
+
+@media only screen and (max-width: 734px) {
+  .weather-item{
+    display: block;
+    margin:0 0 10px;
+  }
+
+  .weather-item label{
+    width:100px;
+    display: inline-block;
+  }
 }
 
 
